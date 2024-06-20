@@ -1,6 +1,12 @@
 import './footer.css';
 
+import g4 from '../../../assets/imgs/14.3.jpg';
+import g3 from '../../../assets/imgs/19.2.jpg';
+import g2 from '../../../assets/imgs/19.jpg';
+import g1 from '../../../assets/imgs/24.1.jpg';
+import g5 from '../../../assets/imgs/5.3.jpg';
 import logo from '../../../assets/imgs/logo.jpg';
+import pago from '../../../assets/imgs/pago.jpg';
 
 const Footer = () => {
   return (
@@ -38,18 +44,18 @@ const Footer = () => {
         <div className="footer-one col-lg-3 col-md-6 col-sm-12">
           <h5 className="pb-2">Instagram</h5>
           <div className="row">
-            <img src="" alt="" className="img-fluid w-25 h-100 m-2" />
-            <img src="" alt="" className="img-fluid w-25 h-100 m-2" />
-            <img src="" alt="" className="img-fluid w-25 h-100 m-2" />
-            <img src="" alt="" className="img-fluid w-25 h-100 m-2" />
-            <img src="" alt="" className="img-fluid w-25 h-100 m-2" />
+            <img src={g1} alt="" className="img-fluid w-25 h-100 m-2" />
+            <img src={g2} alt="" className="img-fluid w-25 h-100 m-2" />
+            <img src={g3} alt="" className="img-fluid w-25 h-100 m-2" />
+            <img src={g4} alt="" className="img-fluid w-25 h-100 m-2" />
+            <img src={g5} alt="" className="img-fluid w-25 h-100 m-2" />
           </div>
         </div>
       </div>
       <div className="fa-copyright mt-5">
         <div className="row container mx-auto">
           <div className="col-lg-3 col-md-5 col-sm-12 mb-4">
-            <img src="" alt="" />
+            <img src={pago} alt="" />
           </div>
           <div className="copy col-lg-4 col-md-5 col-sm-12 mb-4 text-nowrap mb-2">
             <p>&copy; 2024 Ecommerce. All Rights Reserved.</p>
