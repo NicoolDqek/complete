@@ -1,5 +1,5 @@
 import './registerpage.css';
-import 'react-toastify/dist/ReactToastify.css';  // Asegúrate de importar el CSS
+import 'react-toastify/dist/ReactToastify.css'; 
 
 import React, { useState } from 'react';
 
